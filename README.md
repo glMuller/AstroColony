@@ -37,6 +37,7 @@ erDiagram
         double ConsumoMedioDiario
         int ResponsavelId FK
     }
+```
 
     🚀 Instruções de Execução e Acesso
 Para rodar e testar o microsserviço localmente, siga o passo a passo:
