@@ -71,6 +71,6 @@ Busca Inexistente (Status 404 Not Found): Na rota GET /api/Tripulantes/999, a te
 Proteção de Integridade no Update (Status 400 Bad Request): Na rota PUT /api/Estoque/1, se o usuário tentar enviar no corpo da requisição um ID divergente do ID informado na URL da rota, a API bloqueia a alteração para evitar sobreposição de dados informando: "IDs não conferem."
 
 🎬 Links das Apresentações
-🎥 Vídeo Pitch (Viabilidade e Inovação - Máx 3 min): [COLE O LINK DO YOUTUBE AQUI]
+🎥 Vídeo Pitch (Viabilidade e Inovação): https://youtu.be/piCdwwUXrFQ
 
-💻 Vídeo Demonstração (Solução e Swagger - Máx 8 min): [COLE O LINK DO YOUTUBE AQUI]
+💻 Vídeo Demonstração (Solução e Swagger): https://youtu.be/nxfZuU1qTI8
