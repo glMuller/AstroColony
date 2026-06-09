@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AstroColony</name>
+    </assembly>
+    <members>
+        <member name="M:AstroColony.Controllers.EstoqueController.ListarTodos">
+            <summary>
+            Lista todos os itens de suprimento cadastrados na base.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.EstoqueController.CriarItem(AstroColony.Entities.ItemEstoque)">
+            <summary>
+            Cadastra um novo item no estoque de suprimentos.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.EstoqueController.AtualizarItem(System.Int32,AstroColony.Entities.ItemEstoque)">
+            <summary>
+            Atualiza os dados de um item de estoque existente.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.EstoqueController.DeletarItem(System.Int32)">
+            <summary>
+            Remove um item do controle de estoque.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.EstoqueController.CalcularPrevisao(System.Int32)">
+            <summary>
+            Calcula a previsão de término de um item e alerta se há risco de ruptura.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.TripulantesController.ListarTodos">
+            <summary>
+            Lista todos os tripulantes a bordo da AstroColony.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.TripulantesController.CadastrarTripulante(AstroColony.Entities.Tripulante)">
+            <summary>
+            Cadastra um novo tripulante na base.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.TripulantesController.AtualizarTripulante(System.Int32,AstroColony.Entities.Tripulante)">
+            <summary>
+            Atualiza a função ou o status de saúde de um tripulante.
+            </summary>
+        </member>
+        <member name="M:AstroColony.Controllers.TripulantesController.RemoverTripulante(System.Int32)">
+            <summary>
+            Remove o registro de um tripulante do sistema.
+            </summary>
+        </member>
+        <member name="T:AstroColony.Migrations.InitialOracle">
+            <inheritdoc />
+        </member>
+        <member name="M:AstroColony.Migrations.InitialOracle.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AstroColony.Migrations.InitialOracle.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AstroColony.Migrations.InitialOracle.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
